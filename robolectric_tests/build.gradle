@@ -1,4 +1,5 @@
 apply plugin: 'java'
+evaluationDependsOn(':app')
 
 buildscript {
     repositories {
