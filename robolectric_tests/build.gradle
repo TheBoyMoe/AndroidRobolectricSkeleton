@@ -32,8 +32,5 @@ tasks.withType(Test) {
     scanForTestClasses = false
     include "**/*Test.class"
 
-    test {
-        // set JVM arguments for the test JVM(s)
-        jvmArgs '-XX:-UseSplitVerifier'
-    }
+
 }
