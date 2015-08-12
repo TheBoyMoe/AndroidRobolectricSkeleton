@@ -32,6 +32,7 @@ public class RobolectricGradleTestRunner extends RobolectricTestRunner{
     private static final String FINAL_MANIFEST_PATH = PROJECT_DIR + MANIFEST_PATH;
     private static final String FINAL_RES_PATH = PROJECT_DIR + RES_PATH;
 
+
     /**
      * Creates a runner to run {@code testClass}. Looks in your working directory for your AndroidManifest.xml file
      * and res directory by default. Use the {@link Config} annotation to configure.
